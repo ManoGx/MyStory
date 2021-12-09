@@ -17,6 +17,7 @@ class SplashActivity : AppCompatActivity() {
         //هذا الكود خاص بعمل تأخير لتنفيذ الاكواد البرمجية
         Handler(Looper.myLooper()!!).postDelayed({
             //هذه الدالة تستخدم لحذف الواجهة من الذاكرة
+            //لازم اخلي الفينيش قبل الانتقال عشان نضمن حذف الواجهة
             finish()
             val i = Intent(this,LoginActivity::class.java)
             startActivity(i)
