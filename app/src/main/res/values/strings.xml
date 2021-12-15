@@ -9,4 +9,8 @@
     <string name="logout">Logout</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+
+    <string name="story1_title">This is my first story</string>
+    <string name="story1_subtitle">This is Subtitle</string>
+    <string name="story1_description">This is Description</string>
 </resources>
