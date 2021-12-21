@@ -30,6 +30,8 @@ class CustomAdapter(val storiesList:ArrayList<Story>, val context:Context)
 
         holder.itemView.setOnClickListener {
             val i = Intent(context,StoryDetailsActivity::class.java)
+            //مكون من الواجهة الي احنا فيها والي هي ماين اكتفتي (كونتكست) الى الوجهة الجديدة
+            //putExtra هذه الاشياء الي نبي ننقلها للواجهة الجديدة
             i.putExtra("title",story.title)
             i.putExtra("desc",story.description)
             context.startActivity(i)

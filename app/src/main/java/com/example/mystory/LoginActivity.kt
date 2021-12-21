@@ -44,7 +44,9 @@ class LoginActivity : AppCompatActivity() {
             val user = User(username , password)
 
             for(userArray in arr){
-                if(userArray.email == user.email && userArray.password == user.password){
+                //if(userArray.email == user.email
+                    //الايكوال عشان يخلي الايميل نفس الحروف ماتفرق كبيرة او صغيرة
+                if(userArray.email.equals(user.email,true) && userArray.password == user.password){
 //                    Toast.makeText(this,"Welcome ${user.email}",Toast.LENGTH_LONG).show()
                         finish()
                         val i = Intent(this,MainActivity::class.java)
@@ -53,19 +55,24 @@ class LoginActivity : AppCompatActivity() {
                     startActivity(i) //خاصة للأنتقال بين الاكتفتي || لكن لو تبي تنتقل بين الفراقمنت تستخدم ()commit
                     break
                 }else{
-                    Toast.makeText(this,"Check your data",Toast.LENGTH_LONG).show()
+                    Toast.makeText(this,"Check your data",Toast.LENGTH_SHORT).show()
             }
         }
-        }
-
-    }
-    private fun checkFields(){
-        buttonLogin?.setOnClickListener {
             if(editTextUsername?.text?.isEmpty() == true){
                 editTextUsername?.setError("Enter you email") //nice
             }else if (editTextPassword?.text?.isEmpty() == true){
                 editTextPassword?.error = "Enter you email" //نفس حق الايميل لكن بطريقة اخرى
             }
         }
+
+    }
+    private fun checkFields(){
+//        buttonLogin?.setOnClickListener {
+//            if(editTextUsername?.text?.isEmpty() == true){
+//                editTextUsername?.setError("Enter you email") //nice
+//            }else if (editTextPassword?.text?.isEmpty() == true){
+//                editTextPassword?.error = "Enter you email" //نفس حق الايميل لكن بطريقة اخرى
+//            }
+//        }
     }
 }

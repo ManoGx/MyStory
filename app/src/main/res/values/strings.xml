@@ -9,8 +9,12 @@
     <string name="logout">Logout</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="enter_title">Enter Title here</string>
+    <string name="enter_subtitle">Enter Subtitle here</string>
+    <string name="enter_desc">Enter Description</string>
+    <string name="add_story">Add story</string>
 
     <string name="story1_title">This is my first story</string>
-    <string name="story1_subtitle">This is Subtitle</string>
-    <string name="story1_description">This is Description</string>
+    <string name="story1_subtitle">Special Thank for Eng. Aiman</string>
+    <string name="story1_description">Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   Thank you very much Eng. Aiman   </string>
 </resources>
